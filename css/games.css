@@ -1,0 +1,21 @@
+
+/* Content */
+.title{
+   margin-bottom: 3.5%;
+   
+}
+.title-text{
+    font-size:2.5rem;
+    color: #d95864;
+}
+.games-box{
+    margin:2% 0;
+}
+
+.games-selection{
+    width:70%;
+}
+.drum-games-box.games-box{
+    margin-bottom: 2%;
+}
+

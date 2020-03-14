@@ -1,0 +1,65 @@
+@media (max-width:800px){
+    .dice-image{
+        width:150px;
+    }
+}
+
+@media(max-width:767px){
+
+    .games-heading{
+        font-size: 3.3rem;
+        padding-bottom: 6.5%;
+    }
+    .player-name{
+        font-size: 1.5rem;
+    }
+
+    .dice-image{
+        width:30%;
+    }
+
+    .try-again-button, .spin-button{
+        display:block;
+        margin:10% auto 0;
+        width:50%;
+        font-size: 90%;
+        height: 28%;
+    }
+    .result{
+    margin:10% 0 3%;
+    }
+
+    }
+
+@media(min-width:667px) and (max-width:767px){
+    .try-again-button, .spin-button{
+        margin:7% auto 0;
+    }
+    .result{
+        margin-top:7%;
+    }
+}
+@media(max-width:494px){
+    .games-heading{
+        font-size: 3rem;
+    }
+}
+
+
+@media(max-width:450px){
+    .games-heading{
+        font-size: 2.7rem;
+        padding-bottom: 8%;
+    }
+    .try-again-button, .spin-button{
+       margin:14% auto 0;
+    }
+    .result{
+    margin:12% 0 3%;
+    }
+}
+@media(max-width:407px) and (min-width:343px){
+    .games-heading{
+        font-size: 2.85rem;
+    }
+}

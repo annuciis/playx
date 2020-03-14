@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+  }
+
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+}
+
+body{
+    text-align: center;
+    overflow-x: hidden;
+    background-color: #80c5c54d;
+    color: #0c3f53;
+}
+
+
+
+/* containers */
+
+.container-fluid{
+    padding:7% 15%;
+}

@@ -1,0 +1,109 @@
+/*tablet*/
+@media(max-width:991px){
+    #top3-games{
+       padding: 7% 0; 
+    }
+    .top3-content{
+        margin:3% 0 1%;
+    }
+    .drum-game-top3, .dice-game-top3{
+        margin:3% 0;
+    }
+    .top3-title{
+        font-size:2.5rem
+    }
+    .top3-image{
+        width:75%;
+        height:180px;
+        border-radius: 20px;
+
+    }
+    .piano-game-top3{
+        margin:3% auto 0;
+    }
+}
+@media(max-width:860px){
+    .big-heading{
+        margin-bottom: 2%;
+    }
+    .title-text-h2{
+        font-size: 2rem;
+    }
+    .title-button{
+        margin:6% 0 0;
+    }
+    .top3-content{
+        margin:5% 0 1%
+    }
+    
+
+
+   
+}
+/* phone */
+@media(max-width:767px){
+    .top3-image{
+        width:65%;
+        height:170px
+    }
+
+    .drum-game-top3, .dice-game-top3, .piano-game-top3{
+        margin:4.5% 0;
+    }
+}
+
+@media(max-width:572px){
+    .big-heading{
+        margin-bottom: 4%;
+    }
+    .title-text-h2{
+        font-size: 1.7rem;
+    }
+    #top3-games{
+        padding:10% 5% 7%;
+    }
+    .top3-title{
+        font-size:2.35rem
+    }
+    
+    .top3-image{
+        width:80%;
+    }
+
+}
+
+@media(max-width:468px){
+    .big-heading{
+        margin-bottom: 6%;
+    }
+    
+    .title-button{
+        padding:4px
+    }
+    
+    .drum-game-top3, .dice-game-top3, .piano-game-top3{
+        margin:6% 0;
+    }
+   
+    .top3-image{
+        width:80%;
+        height:160px
+    }
+    .title-button{
+        margin: 8% 0 0;;
+    }
+    
+
+}
+@media(max-width:371px){
+    .title-text-h2{
+        font-size: 1.4rem;
+    }
+    .top3-title{
+        font-size: 2rem;
+    }
+
+.top3-image{
+    height:130px;
+}
+}

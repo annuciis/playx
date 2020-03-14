@@ -1,0 +1,71 @@
+@media(max-width:992px){
+    .title{
+        margin: 2% 0 5%;
+    }
+    .title-text{
+        font-size: 2rem;
+    }
+    .games-selection{
+        width:83%;
+    }
+}
+
+@media(max-width:850px){
+    .games-selection{
+        width:87%;
+    }
+}
+@media(max-width:767px){
+    .games-selection{
+        width:55%;
+    }
+    .games-box{
+        margin:4% 0;
+    }
+}
+
+@media(max-width:650px){
+    .games-selection{
+        width:60%;
+    }
+    .drum-games-box.games-box{
+        margin-bottom: 3.5%;
+    }
+}
+@media(max-width:550px){
+    .title{
+        margin: 3% 0 6%;
+    }
+    .games-box{
+        margin:5% 0;
+    }
+}
+@media(max-width:500px){
+    .games-selection{
+        width:65%;
+    }
+    .title-text{
+        font-size: 1.7rem;
+    }
+}
+
+@media(max-width:436px){
+    .games-selection{
+        width:70%;
+    }
+}
+
+@media(max-width:391px){
+    .games-selection{
+        width:75%;
+    }
+    .games-box{
+        margin:5.5% 0;
+    }
+}
+
+@media(max-width:340px){
+    .games-selection{
+        width:80%;
+    }
+}

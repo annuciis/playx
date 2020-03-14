@@ -1,0 +1,53 @@
+
+/***************** CONTENT ***************/
+
+
+/* header */
+
+.games-heading{
+    font-size: 3.5rem;
+    opacity: 0.8;
+    text-shadow: -1px 0 #0c3f53, 0 1px #0c3f53, 1px 0 #0c3f53, 0 -1px #0c3f53;
+}
+
+.heading-text{
+    padding-bottom: 2%;
+    font-size: 1.5rem;
+}
+
+.em.em-heart{
+    width:1em;
+    height:1em
+}
+
+
+/* Game content */
+
+.game-content{
+    background-color: #70cfecba;
+}
+.player-inputs{
+    display: flex;
+    padding-TOP: 2%;
+}
+.player-window{
+    flex: 1;
+}
+.person-input-box{
+    height:2.5rem;
+    border-radius: 10px;
+}
+.write-name-text{
+    font-size: 1.35rem;
+}
+.love-buttons{
+    display: flex;
+}
+.love-button{
+margin:20px 40px;
+flex:1;
+}
+.love-textbox{
+    padding: 3% 4% 1%;
+}
+

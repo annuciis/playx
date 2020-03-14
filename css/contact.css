@@ -1,0 +1,37 @@
+/*Containers */
+
+
+.container-fluid{
+    padding:2% 10%;
+}
+
+/*content */
+
+.page-content{
+    margin-top: 5%;
+}
+
+/* contact form */
+
+.contact-text-area{
+    width:80%;
+}
+
+.contact-input-box{
+    width:60%;
+}
+
+
+.contact-icon-box{
+    margin:3% 0
+}
+
+.message-button{
+    width:25%;
+}
+
+/*output message */
+
+.thanks-text{
+    font-size: 1.5rem;
+}

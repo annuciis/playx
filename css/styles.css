@@ -1,0 +1,91 @@
+
+
+/* background image */
+
+#title{
+    position: relative;
+}
+#title:after {
+    content : "";
+    display: block;
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    background-image: url("https://ak2.picdn.net/shutterstock/videos/1668892/thumb/12.jpg"); 
+    width: 100%;
+    height: 100%;
+    opacity : 0.6;
+    z-index: -1;
+}
+/*headings */
+
+.big-heading{
+    font-size: 3.5rem;
+    font-family:'Luckiest Guy', cursive;
+    
+}
+
+.games-heading{
+    font-size: 3.5rem;
+    opacity: 0.8;
+    text-shadow: -1px 0 #0c3f53, 0 1px #0c3f53, 1px 0 #0c3f53, 0 -1px #0c3f53;
+}
+
+
+
+/*title */
+.title-text{
+    background-color: #cae5ed;
+    opacity: 0.7;
+    z-index: 0;
+    position: relative;
+}
+.title-text-h2{
+    color: #022b3c;
+    font-size: 2.3rem;
+}
+
+.title-button{
+    width:128px;
+    margin:3% 0 0;
+}
+a .btn{
+    color:#fff;
+    text-decoration: none;
+}
+
+.title-text-h2{
+    padding-top: 1%;;
+}
+
+/* top3 */
+
+#top3-games{
+    padding: 4% 4% 2%;
+   
+}
+
+.top3-title{
+    color: #48909a;
+    font-size: 2.7rem;
+    letter-spacing: 2.5px;
+}
+/*top3 content*/
+
+.drum-game-top3, .dice-game-top3, .piano-game-top3{
+    margin:4.5% 0;
+}
+
+.top3-image{
+    width:90%;
+    height:220px;
+    border-radius: 20px;
+    border: 5px solid #6b99a6;
+}
+
+
+
+
+
+

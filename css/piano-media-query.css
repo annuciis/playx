@@ -1,0 +1,66 @@
+@media(max-width:1024px){
+    .container-fluid{
+        padding: 7% 10%;
+    }
+
+    .info-button{
+        display: none;
+    }
+}
+
+@media(max-width:815px){
+    .keyC3 , .keyD3 , .keyE3, .keyF3 , .keyG3 , .keyA4 , .keyB4, .keyC4{
+        padding-top: 29%;
+    }
+
+    footer{
+        margin-top: 5%;
+    }
+}
+
+
+
+@media(max-width:673px){
+    .keyC3 , .keyD3 , .keyE3, .keyF3 , .keyG3 , .keyA4 , .keyB4, .keyC4{
+        padding-top: 35%;
+    }
+}
+
+
+@media(max-width:536px){
+    .keyC3 , .keyD3 , .keyE3, .keyF3 , .keyG3 , .keyA4 , .keyB4, .keyC4{
+        padding-top: 44%;
+    }
+}
+
+
+
+@media (max-width:467px){
+.container-fluid{
+    padding:12% 4%;
+}
+
+.key--C, .key--D , .key--F , .key--G , .key--A, .keyC3 , .keyD3 , .keyE3, .keyF3 , .keyG3 , .keyA4 , .keyB4, .keyC4{
+    font-size: 0.8rem;
+}
+
+
+
+}
+
+@media(max-width:384px){
+    .keyC3 , .keyD3 , .keyE3, .keyF3 , .keyG3 , .keyA4 , .keyB4, .keyC4{
+        padding-top: 54%;
+        
+    }
+
+    footer{
+        margin-top: 10%;
+    }
+}
+
+@media(max-width:355px){
+    .games-heading{
+        font-size:3rem;
+    }
+}

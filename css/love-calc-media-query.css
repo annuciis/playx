@@ -1,0 +1,83 @@
+@media(min-width:783px) and (max-width :1024px){
+
+
+.love-button{
+    padding:0.8rem;
+    margin:33px 40px;
+}
+
+.write-name-text{
+    padding: 0.8rem;
+}
+.footer-content{
+    font-size: 1.2rem;
+}
+}
+
+@media(max-width:782px){
+    .games-heading{
+        font-size:3rem;
+    }
+    .heading-text{
+        font-size: 1.3rem;
+        padding-top: 3% ;
+    }
+
+    /* game content */
+    .player-inputs{
+        display: block;
+    }
+    .write-name-text{
+        font-size: 1.3rem;
+        padding: 2rem 0 1.5rem;
+        margin-bottom: 0;
+    }
+
+/*buttons */
+
+    .love-buttons{
+        display: block;
+    }
+
+    .love-button{
+        margin:3rem auto 1rem;
+        display: block;
+        width: 250px;
+    }
+
+}
+
+@media(max-width:455px){
+ 
+    
+    .container-fluid{
+        padding-bottom: 18%;
+    }
+    .games-heading{
+        font-size: 2.5rem;
+
+    }
+    .heading-text{
+        font-size: 1.1rem;
+    }
+
+
+    /* game content */
+
+    .write-name-text{
+        padding: 2rem 2rem 1.5rem;
+        font-size: 1.3rem;
+    }
+    .person-input-box{
+        font-size: 1rem;
+        width: 70%;
+    }
+
+    .love-button{
+        width: 70%;
+    }
+    .love-textbox{
+        padding: 10% 8% 8%;
+    }
+
+}

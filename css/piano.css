@@ -1,0 +1,95 @@
+
+/* containers */
+
+.container-fluid{
+   padding: 7% 10% 5%;;
+}
+
+/*navbar*/
+
+.nav-item{
+    padding:0 5%;
+}
+.dropdown-menu {
+    background-color: #cbf3f3
+    ;
+    color:#ffffff;
+}
+
+/***************** CONTENT ***************/
+
+
+/* header */
+
+.games-heading{
+    font-size: 3.5rem;
+    opacity: 0.8;
+    text-shadow: -1px 0 #0c3f53, 0 1px #0c3f53, 1px 0 #0c3f53, 0 -1px #0c3f53;
+}
+
+.heading-text{
+    padding-bottom: 4%;
+}
+
+.note{
+   text-shadow:  3px 0 #416472;
+}
+
+/**** GAME CONTENT ***/
+
+.main-piano{
+    display: flex;
+    position: relative;
+}
+
+.keyC3 , .keyD3 , .keyE3, .keyF3 , .keyG3 , .keyA4 , .keyB4, .keyC4, .key--C, .key--D , .key--F , .key--G , .key--A{
+    vertical-align: bottom;
+    margin: 0 auto;
+    padding: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.keyC3 , .keyD3 , .keyE3, .keyF3 , .keyG3 , .keyA4 , .keyB4, .keyC4{
+    display: inline-block;
+    width:1%;
+    height:220px;
+    background-color: #fff;
+    border:1px solid black;
+    flex: 1;
+
+    
+}
+
+.key--C, .key--D , .key--F , .key--G , .key--A{
+    position: absolute;
+    width:7%;
+    height:170px;
+    background:black;
+    color: #fff;
+}
+
+.key--C{
+    left:9%;
+}
+
+.key--D{
+    left:21.5%;
+}
+
+.key--F{
+    left:46.5%;
+}
+
+.key--G{
+    left:59%;
+}
+
+.key--A{
+    left:71.5%;
+}
+/* info button */
+
+.info-button{
+   margin:8% 0 0;
+}

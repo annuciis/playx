@@ -1,0 +1,45 @@
+
+
+/***************** CONTENT ***************/
+
+
+/* header */
+
+.games-heading{
+    font-size: 3.5rem;
+    padding-bottom: 3%;
+    opacity: 0.8;
+    text-shadow: -1px 0 #0c3f53, 0 1px #0c3f53, 1px 0 #0c3f53, 0 -1px #0c3f53;
+}
+
+
+/** GAME **/
+
+.game-content{
+    background-color: #70cfecba;
+}
+
+.dice{
+    margin:5% 0;
+}
+.dice-image{
+    width:190px;
+}
+.spin-button, .try-again-button{
+    width:150px;
+    margin: 0 0.3rem;
+    font-weight: 100%;
+}
+
+.result{
+    margin: 5% 0 3%;
+    
+}
+.result-text{
+    font-weight: 700;
+    color:#1eff44;
+    font-size: 2rem;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+

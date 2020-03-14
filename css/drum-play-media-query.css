@@ -1,0 +1,37 @@
+@media(max-width:1024px){
+    .games-heading{
+        font-size: 3rem;
+    }
+
+}
+
+@media(max-width:560px){
+    .play-space{
+        margin-top:18%;
+    }
+}
+
+@media(max-width:467px){
+
+    .container-fluid{
+        padding: 10% 15% 15%;
+    }
+
+    .drum-btn{
+        height:110px;
+        width:120px;
+    }
+
+}
+
+@media(max-width:360px){
+    .drum-btn{
+        height:90px;
+        width:100px;
+    }
+}
+@media(max-width:300px){
+    .games-heading{
+        font-size:2.7rem;
+    }
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>The love calculator</title>
+  <!-- Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Roboto|Ubuntu&display=swap" rel="stylesheet">
+  <!-- Css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/default-body.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/love-calc.css">
+  <link rel="stylesheet" href="css/love-calc-media-query.css">
+  <!--Emoji-->
+  <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+  <!--Bootstrap Scripts-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+
+</head>
+
+<body>
+  <section id="loveGame">
+
+
+    <!-- NavBar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info ">
+      <a class="navbar-brand" href="index.html">
+        PlayX
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar1">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link " href="#" id="navbarDropdownMenu" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Games
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenu">
+              <a class="dropdown-item" href="love-calc.html">The love calculator</a>
+              <a class="dropdown-item" href="drum-play.html">Drum play</a>
+              <a class="dropdown-item" href="dice-game.html">Dice game</a>
+              <a class="dropdown-item" href="piano.html">Piano</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <h1 class="games-heading"> The <i class="em em-heart" aria-role="presentation" aria-label="HEAVY BLACK HEART"></i>
+        calculator </h1>
+      <p class="heading-text">Determine the strength of your love! <br> Type two people's names and hit the button!</p>
+      <div class="game-content">
+        <div class="player-inputs">
+          <div class="player-window">
+            <p class="write-name-text">Your name:</p>
+            <input type="text" id="person1" class="person-input-box">
+          </div>
+          <div class="player-window">
+            <p class="write-name-text">Your next partner's name:</p>
+            <input type="text" id="person2" class="person-input-box">
+          </div>
+        </div>
+        <div class="love-buttons">
+          <button class="btn btn-info btn-lg love-button" id="get-love-results" onclick="calculate()">Calculate</button>
+          <button class="btn btn-info btn-lg love-button" id="clear-love-score" onclick="clearText()">Try again</button>
+        </div>
+        <div class="love-textbox">
+          <p class="love-text">
+
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <footer>
+    <div id="footer-content">
+      <p class="footer-text">Made in Riga, Latvia <i class="em em-flag-lv" aria-role="presentation"
+          aria-label="Latvia Flag"></i> </p>
+      <p class="footer-text">Year 2020</p>
+    </div>
+  </footer>
+  <script src="javascript/love-calc.js"></script>
+</body>
+
+</html>

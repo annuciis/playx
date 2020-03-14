@@ -1,0 +1,22 @@
+#footer-content{
+    background-color: #5bc0deba;
+    padding: 1.5%;
+}
+.footer-text{
+    margin:0;
+    letter-spacing: 1px;
+    color: #00000085;
+    line-height: 1.5;
+    }
+
+
+.em.em-flag-lv{
+    height:1.25em;
+}
+
+
+@media(max-width:767px){
+    #footer-content{
+        padding:3%;
+    }
+}
