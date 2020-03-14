@@ -32,6 +32,9 @@
         padding: 2rem 0 1.5rem;
         margin-bottom: 0;
     }
+    .person-input-box{
+        height:2.25rem;
+    }
 
 /*buttons */
 
@@ -46,7 +49,21 @@
     }
 
 }
-
+@media(max-width:572px){
+    .games-heading{
+        font-size: 2.5rem;
+    }
+    .heading-text{
+        font-size: 1.2rem;
+    }
+    .write-name-text{
+        font-size: 1.15rem;
+       
+    }
+    .person-input-box{
+        height:2.1rem;
+    }
+}
 @media(max-width:455px){
  
     
@@ -54,7 +71,7 @@
         padding-bottom: 18%;
     }
     .games-heading{
-        font-size: 2.5rem;
+        font-size: 2.2rem;
 
     }
     .heading-text{
@@ -66,11 +83,12 @@
 
     .write-name-text{
         padding: 2rem 2rem 1.5rem;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     .person-input-box{
         font-size: 1rem;
         width: 70%;
+        height:2rem;
     }
 
     .love-button{
